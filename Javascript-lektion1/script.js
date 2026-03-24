@@ -26,3 +26,16 @@ arr[0]= "En string"; //Får byta ut innehållet i ett element
 console.log(arr);
 
 //arr= 100; // Får inte byta ut innehållet i en const variabel
+
+
+console.log("3" == 3);
+console.log("3" === 3);
+
+let val;
+
+if(val){
+    console.log("val innehåller bågot")
+}
+else{
+    console.log("val är undefined")
+}
