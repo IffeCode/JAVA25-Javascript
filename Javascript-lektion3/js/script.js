@@ -2,7 +2,7 @@ function firstFunction(){
     console.log("first");
 }
 function secondFunciton(){
-    console.log("second")
+    console.log("second");
 }
 
 function higherOrder(callback){
@@ -10,6 +10,19 @@ function higherOrder(callback){
     callback();
 }
 
-console.log( firstFunction )
+console.log( firstFunction );
 
 higherOrder( secondFunciton );
+
+//Arrowfunction
+
+//function double(x){
+//    return x+x;
+//}
+
+//const double = x=>{
+  //  return x+x;
+//}
+const double = x=> x+x;
+
+higherOrder( ()=>console.log("arrow"));
